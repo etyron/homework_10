@@ -1,0 +1,13 @@
+.navbar-light .navbar-nav .nav-link{
+  text-transform: uppercase;
+  color:$darkgrey-color;
+  font-size:.8125rem;
+  font-weight: 700;
+  padding: 0;
+  &:hover{
+    color:$white-color;
+  }
+}
+.navbar-light .navbar-nav .nav-link.active{
+  color:$red-color;
+}

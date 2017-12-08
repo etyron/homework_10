@@ -1,0 +1,25 @@
+.section-indents {
+  padding: 6.25rem 0;
+}
+.section-indents-team {
+  padding: 6.25rem 0 3.125rem;
+}
+.section-indents-mini {
+  padding: 1.875rem 0;
+}
+.section-indents-small {
+  padding: 4.375rem 0;
+}
+.section-indents-medium {
+  padding: 7.5rem 0;
+}
+.section-indents-medium-top {
+  padding: 7.5rem 0 3.125rem;
+}
+
+.section-margin-medium {
+  margin-bottom: 1rem;
+}
+.section-margin-large {
+  margin-bottom: 2.1875rem;
+}

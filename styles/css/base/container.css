@@ -1,0 +1,35 @@
+.container {
+  padding: 0 15px;
+}
+
+@media (min-width: 550px) {
+  .container {
+    max-width: 530px;
+  }
+}
+@media (min-width: 730px) {
+  .container {
+    max-width: 700px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 990px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+.padding-container {
+  padding: 1px;
+}
+
+.text-container {
+  padding: 0 15px;
+}
+
+.padding-none {
+  padding: 0;
+}

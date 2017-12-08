@@ -1,0 +1,44 @@
+.carousel-inner{
+  background: $darkblue-color;
+}
+.quote-block{
+  background: #53354a;
+}
+.carousel{
+  position: relative;
+  &-image{
+    background-size: cover;
+    &-client{
+      background-size: contain;
+    }
+  }
+  &-blockquote{
+    box-sizing: border-box;
+    padding: 0 5% 0 15%;
+
+    max-width: 36.5625rem;
+    width: 100%;
+  }
+  &-quote{
+    color:$white-color;
+    font:2.25rem/2.625rem 'Cardo', serif;
+    margin-bottom: 1.25rem;
+  }
+  &-author{
+    color: $white-color;
+    font-size:.8125rem;
+    line-height: 1.3125rem;
+  }
+}
+
+.carousel-indicators{
+  position: absolute;
+  bottom: 5%;
+  right: -15.5rem;
+  width:10rem;
+  li{
+    width: .9375rem;
+    height: .9375rem;
+    border-radius: 50%;
+  }
+}

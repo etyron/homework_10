@@ -1,0 +1,11 @@
+.welcome{
+  &-section{
+    position: relative;
+    background:linear-gradient(0deg, rgba(43, 46, 74, 0.95), rgba(43, 46, 74, 0.95)),
+    url("../../images/welcome-section-bg.png") no-repeat left top;
+    background-size: cover;
+  }
+  &-info{
+    padding: 9.375rem 0;
+  }
+}

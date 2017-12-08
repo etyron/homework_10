@@ -1,0 +1,58 @@
+.welcome{
+  &-title{
+    font:700 4.06rem/4.4375rem 'Open Sans', sans-serif;
+    color:$white-color;
+    padding: 0 1.5rem;
+    margin-bottom: 1.625rem;
+  }
+  &-text{
+    display: block;
+    font-size: 1.375rem;
+    line-height: 2rem;
+    color: $white-color;
+    margin-bottom: 4.5rem;
+  }
+}
+
+.text-align{
+  &-center{
+    text-align: center;
+  }
+}
+
+.title{
+  &-section{
+    font-weight: 400;
+    font-size: 1.75rem;
+    color:$black-color;
+  }
+  &-footer{
+    text-transform: uppercase;
+    color:$white-color;
+    text-align: center;
+    font-size: .875rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+}
+
+.text{
+  &-section {
+    color: $black-color;
+    font-size: .8125rem;
+    line-height: 1.3125rem;
+  }
+}
+
+.white-color{
+  color:$white-color;
+}
+
+.heart-icon{
+  &::before{
+    content: "\f004 ";
+    font-family: FontAwesome;
+    font-size: .75rem;
+    color: $red-color;
+  }
+}

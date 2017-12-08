@@ -1,0 +1,66 @@
+button{
+  box-shadow: none;
+  outline: none;
+  &:focus{
+    box-shadow: none;
+    outline: none;
+  }
+}
+.social-list{
+  & li{
+    position: relative;
+    width:2.5rem;
+    height: 2.5rem;
+    border:1px solid ;
+    margin-right: .25rem;
+    &:last-child{
+      margin-right: 0;
+    }
+    & .fa{
+      position: absolute;
+      left: 50%;
+      top:50%;
+      transform: translate(-50%, -50%);
+      font-size: 1.25rem;
+    }
+    &:hover{
+      background: $red-color;
+      border-color: $red-color;
+      & .fa{
+        color: $white-color;
+      }
+    }
+  }
+  &-team{
+    li{
+      border-color: $grey-color;
+      & .fa{
+        color:$grey-color;
+      }
+    }
+  }
+  &-share{
+    li{
+      border-color: $white-color;
+      margin-bottom:1.875rem;
+      & .fa{
+        color: $white-color;
+      }
+    }
+  }
+}
+
+.btn{
+  text-transform: uppercase;
+  font-size: .8125rem;
+  font-weight: 600;
+  color:$white-color;
+  padding: 1.125rem 5.125rem;
+  background: $red-color;
+  &:hover{
+    background:#ff0000;
+  }
+  &:focus{
+    box-shadow: none;
+  }
+}
