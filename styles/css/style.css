@@ -217,7 +217,7 @@ body {
   z-index: 990;
 }
 .fixed .navbar {
-  min-height: 4rem;
+  height: 4rem;
   border-bottom: none;
 }
 
@@ -273,38 +273,38 @@ body {
   content: none;
 }
 
-.navbar-collapse.collapse.show {
-  transition: 0.1s;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-}
-.navbar-collapse.collapse.show .navbar-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-.navbar-collapse.collapse.show .nav-item {
-  margin-right: 0;
-  margin-bottom: 1.25rem;
-}
-.navbar-collapse.collapse.show .nav-item:last-child {
-  margin-bottom: 0;
-}
-.navbar-collapse.collapse.show .nav-link {
-  font-size: 1.5rem;
-}
+@media (max-width: 800px) {
+  .navbar-collapse.collapse.show {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+  }
+  .navbar-collapse.collapse.show .navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .navbar-collapse.collapse.show .nav-item {
+    margin-right: 0;
+    margin-bottom: 1.25rem;
+  }
+  .navbar-collapse.collapse.show .nav-item:last-child {
+    margin-bottom: 0;
+  }
+  .navbar-collapse.collapse.show .nav-link {
+    font-size: 1.5rem;
+  }
 
-.collapse-on {
-  background: rgba(0, 0, 0, 0.9);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+  .collapse-on {
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
 }
-
 .team {
   margin-bottom: 3.125rem;
 }
